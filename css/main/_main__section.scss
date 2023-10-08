@@ -1,0 +1,23 @@
+.main__section {
+    width: 100%;
+    margin-top: 172px;
+    background-color: #FF9C7D;
+    .main__section__heading {
+        padding-top: 98px;
+        padding-bottom: 70px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+    .main__section__img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 7%;
+        img {
+            padding-bottom: 94px;
+            
+        }
+    }
+}
