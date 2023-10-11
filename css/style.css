@@ -239,4 +239,17 @@
 }
 .main__section--about .main__section--about__container span {
   display: block;
+}
+.main__section--wrapp--mod {
+  background-color: #DABC98;
+  display: flex;
+}
+.main__section--wrapp--mod .main__section--wrapp--mod__container {
+  display: flex;
+}
+.main__section--wrapp--mod .main__section--wrapp--mod__container .main__section--wrapp--mod__container__item img {
+  display: block;
+}
+.main__section--wrapp--mod .main__section--wrapp--mod__container .main__section--wrapp--mod__container__item span {
+  display: block;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+.main__section--wrapp--mod {
+    background-color: #DABC98;
+    display: flex;
+    .main__section--wrapp--mod__container {
+        display: flex;
+        img {
+
+        }
+        h3 {
+
+        }
+        .main__section--wrapp--mod__container__item {
+            img {
+                display: block;
+            }
+            span {
+                display: block;
+            }
+        }
+    }
+}
