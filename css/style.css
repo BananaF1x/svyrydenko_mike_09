@@ -110,12 +110,12 @@
   text-align: center;
 }
 
-.main__section {
+.main__section--logo {
   width: 100%;
   margin-top: 172px;
   background-color: #FF9C7D;
 }
-.main__section .main__section__heading {
+.main__section--logo .main__section__heading {
   padding-top: 98px;
   padding-bottom: 70px;
   text-align: center;
@@ -123,12 +123,81 @@
   font-weight: 600;
   line-height: 60px;
 }
-.main__section .main__section__img {
+.main__section--logo .main__section__img {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 7%;
 }
-.main__section .main__section__img img {
+.main__section--logo .main__section__img img {
   padding-bottom: 94px;
+}
+
+.main__section {
+  width: 90%;
+  margin: 90px auto 150px;
+}
+.main__section .main__section__container {
+  display: flex;
+  align-items: center;
+  margin: 100px 0 150px;
+}
+.main__section .main__section__container .main__sc__item {
+  width: 50%;
+}
+.main__section .main__section__container .main__sc__item h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.main__section .main__section__container .main__sc__item p {
+  padding: 30px 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+.main__section .main__section__container .main__sc__item a {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #000;
+}
+.main__section .main__section__container .main__sc__img {
+  text-align: center;
+  width: 50%;
+}
+
+.main__section--wrapp {
+  background-color: #FFF8E4;
+  padding-bottom: 150px;
+}
+.main__section--wrapp .main__section__heading {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  padding: 120px 0 58px;
+  text-align: center;
+}
+.main__section--wrapp .main__section--mod {
+  width: 69%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 54px 110px;
+  padding: 0 60px;
+}
+.main__section--wrapp .main__section--mod .main__section--mod__container {
+  width: calc(33.3333333333% - 110px);
+  text-align: center;
+}
+.main__section--wrapp .main__section--mod .main__section--mod__container h3 {
+  padding: 23px 0;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.main__section--wrapp .main__section--mod .main__section--mod__container p {
+  font-size: 18px;
+  line-height: 25px;
 }/*# sourceMappingURL=style.css.map */

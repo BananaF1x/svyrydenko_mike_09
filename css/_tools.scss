@@ -1,3 +1,10 @@
 $white: #fff;
 $black: #000;
 $secondary_color: #FF6336;
+
+// mixins
+@mixin headers {
+    font-size: 50xp;
+    font-weight: 600;
+    line-height: 60px;
+}
