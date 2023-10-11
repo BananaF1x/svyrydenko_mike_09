@@ -200,4 +200,35 @@
 .main__section--wrapp .main__section--mod .main__section--mod__container p {
   font-size: 18px;
   line-height: 25px;
+}
+
+.main__section--spec {
+  padding-bottom: 187px;
+}
+.main__section--spec .main__section__heading {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  padding: 154px 0 75px;
+}
+.main__section--spec .main__section--spec__wrapp {
+  width: 69%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__section--spec .main__section--spec__wrapp .main__section--spec__container {
+  width: 33.3333333333%;
+}
+.main__section--spec .main__section--spec__wrapp .main__section--spec__container h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.main__section--spec .main__section--spec__wrapp .main__section--spec__container p {
+  padding: 25px;
+  font-size: 20px;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */
