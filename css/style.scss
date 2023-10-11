@@ -1,8 +1,13 @@
 @import "global";
 @import "tools";
+
+// header
 @import "header/header_section";
 @import "header/header_section--primary";
+
+// main
 @import "main/main_section--logo";
 @import "main/main_section";
 @import "main/main_section--wrapp";
 @import "main/main_section--spec";
+@import "main/main_section--about";

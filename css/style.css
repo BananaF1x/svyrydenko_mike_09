@@ -231,4 +231,12 @@
   padding: 25px;
   font-size: 20px;
   line-height: 30px;
+}
+.main__section--about {
+  background-color: #C9E8F2;
+  display: flex;
+  padding: 0 75px;
+}
+.main__section--about .main__section--about__container span {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
