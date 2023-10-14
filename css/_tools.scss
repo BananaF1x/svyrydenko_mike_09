@@ -9,10 +9,10 @@ $secondary_color--spec: #DABC98;
 $main_size-width: 69%;
 
 // mixins
-@mixin headers {
-    font-size: 3.125rem;
-    font-weight: 600;
-    line-height: 60px;
+@mixin fonts($size, $weight, $line) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $line;
 }
 
 @mixin btn {

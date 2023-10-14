@@ -8,17 +8,17 @@
         margin:100px 0 150px;
         .main__sc__item {
             width: 50%;
-            h2 {
+            .main__section__container__item__heading {
                 font-size: 50px;
                 font-weight: 600;
                 line-height: 60px;
             }
-            p {
+            .main__section__container__item__text {
                 padding: 30px 0;
                 font-size: 20px;
                 line-height: 30px;
             }
-            a {
+            .main__section__container__item__link {
                 font-size: 20px;
                 font-weight: 600;
                 line-height: 30px;

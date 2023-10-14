@@ -1,17 +1,17 @@
 .main__section--banner {
     padding-top: 169px;
     text-align: center;
-    h2 {
+    .main__section--banner__heading {
         font-size: 65px;
         font-weight: 600;
         line-height: 75px;
     }
-    p {
+    .main__section--banner__text {
         font-size: 25px;
         line-height: 30px;
         padding-bottom: 25px;
     }
-    a {
+    .main__section--banner__link {
         display: block;
         width: fit-content;
         margin: 32px auto 162px;

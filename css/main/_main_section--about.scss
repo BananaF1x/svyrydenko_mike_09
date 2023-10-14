@@ -3,18 +3,18 @@
     display: flex;
     padding: 0 75px;
     .main__section--about__container {
-        p {
+        .main__section--about__container__text {
 
         }
-        span {
+        .main__section--about__container__element {
             display: block;
         }
-        img {
+        .main__section--about__container__img {
 
         }
     }
     .main__section--about__img {
-        img {
+        .main__section--about__img__item {
 
         }
     }

@@ -5,16 +5,13 @@
     align-items: center;
     padding-top: 129px;
     .header__section__item {
-        width: 40%;
+        width: 45%;
         .header__section__item__header {
-            @include headers;
-            font-size: 4.0625rem;
-            line-height: 70px;
+            @include fonts(4.0625rem, 600, 70px);
         }
         .header__section__item__text {
             margin: 50px 0;
-            font-size: 1.5625rem;;
-            line-height: 35px;
+            @include fonts(1.5625rem, 400, 35px);
         }
         
         .header__section__btn {
@@ -35,14 +32,13 @@
         .header__section__item__text--mod {
             display: block;
             margin-top: 25px;
-            font-size: 0.9375rem;
-            line-height: 25px;
+            @include fonts(0.9375rem, 400, 25px);
         }
     }
     .header__section__container {
-        width: 60%;
-        text-align: center;
-        img {
+        width: 55%;
+        .header__section__container__img {
+            display: block;
             width: 100%;
         }
     }

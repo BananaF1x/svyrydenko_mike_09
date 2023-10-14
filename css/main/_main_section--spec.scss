@@ -16,20 +16,20 @@
 
         .main__section--spec__container {
             width: calc(100% / 3);
-            img {
+            .main__section--spec__container__img {
     
             }
-            h3 {
+            .main__section--spec__container__heading {
                 font-size: 30px;
                 font-weight: 600;
                 line-height: 40px;
             }
-            p {
+            .main__section--spec__container__text {
                 padding: 25px;
                 font-size: 20px;
                 line-height: 30px;
             }
-            a {
+            .main__section--spec__container__link {
     
             }
         }
