@@ -1,36 +1,42 @@
 .main__section--spec {
     padding-bottom: 187px;
     .main__section__heading {
-        font-size: 50px;
-        font-weight: 600;
-        line-height: 60px;
+        @include fonts(3.125rem, 600, 60px);
         text-align: center;
         padding: 154px 0 75px;
     }
     .main__section--spec__wrapp {
-        width: 69%;
+        width: $main_size-width;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 30px;
 
         .main__section--spec__container {
             width: calc(100% / 3);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 25px;
             .main__section--spec__container__img {
-    
+                height: 201px;
+                display: flex;
+                align-items: center;
+                .main__section--spec__container__img__item {
+                    display: block;
+                }
             }
             .main__section--spec__container__heading {
-                font-size: 30px;
-                font-weight: 600;
-                line-height: 40px;
+                @include fonts(1.875rem, 600, 40px);
             }
             .main__section--spec__container__text {
-                padding: 25px;
-                font-size: 20px;
-                line-height: 30px;
+                @include fonts(1.25rem, 400, 30px);
             }
             .main__section--spec__container__link {
-    
+                @include fonts(1.25rem, 400, 30px);
+                text-decoration: underline;
+                color: $black;
             }
         }
     }

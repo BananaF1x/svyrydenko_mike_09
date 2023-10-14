@@ -1,21 +1,24 @@
 .main__section--about {
-    background-color: #C9E8F2;
+    background-color: $white--spec;
     display: flex;
-    padding: 0 75px;
+    gap: 85px;
+    padding: 53px 15% 105px;
     .main__section--about__container {
         .main__section--about__container__text {
-
+            @include fonts(1.875rem, 400, 40px);
         }
         .main__section--about__container__element {
             display: block;
+            @include fonts(0.9375rem, 400, 25px);
+            padding: 25px 0 5px;
         }
         .main__section--about__container__img {
-
+            display: block;
         }
     }
     .main__section--about__img {
         .main__section--about__img__item {
-
+            display: block;
         }
     }
 }

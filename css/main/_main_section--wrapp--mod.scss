@@ -9,19 +9,23 @@
         align-items: center;
         gap: 0 67px;
         .main__section--wrapp--mod__container__heading {
-            font-size: 35px;
-            font-weight: 600;
-            line-height: 50px;
+            @include fonts(2.1875rem, 600, 50px);
         }
         .main__section--wrapp--mod__container__item {
-            padding-left: 70px;
-            border-left: 1px solid #000;
+            padding: 25px 0;
             .main__section--wrapp--mod__container__item__img {
                 display: block;
+                padding: 15px 0;
             }
             .main__section--wrapp--mod__container__item__text {
                 display: block;
+                @include fonts(0.9375rem, 400, 1px);
+                text-transform: uppercase;
             }
+        }
+        &:nth-child(2) {
+            border-left: 1px solid $black;
+            padding-left: 70px;
         }
     }
 }

@@ -3,16 +3,13 @@
     padding: 0 15%;
     margin-top: 172px;
     background-color: #FF9C7D;
-    font-family: Graphik LC TT;
-    .main__section__heading {
+    .main__section--logo__heading {
         padding-top: 98px;
         padding-bottom: 70px;
         text-align: center;
-        font-size: 50px;
-        font-weight: 600;
-        line-height: 60px;
+        @include fonts(3.125rem, 600, 60px);
     }
-    .main__section__img {
+    .main__section--logo__img {
         display: flex;
         justify-content: space-between;
         align-items: center;
