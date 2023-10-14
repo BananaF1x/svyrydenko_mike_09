@@ -2,28 +2,24 @@
     display: flex;
     justify-content: space-between;
     background-color: $white;
-    padding: 0 4%;
-    border-bottom: 1px solid #CCC;
+    padding: 0 15%;
+    border-bottom: 1px solid $white--mod;
     .header__section__container {
         display: flex;
         align-items: center;
         padding: 34px 0;
-        margin-right: 3%;
+        gap: 0 50px;
         .header__section__container__nav {
-            width: 41%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-left: 51px;
-            gap: 50px;
+            gap: 0 50px;
             .header__nav__list {
                 .header__nav__link {
-                    white-space: nowrap;
-                    width: fit-content;
                     color: $black;
+                    font-size: 0.9375rem;
                 }
             }
-    
         }
     }
     .header__section__btn {
@@ -31,22 +27,17 @@
         align-items: center;
         gap: 10px;
         .header__section__link {
+            @include btn;
             width: 120px;
             border: 1px solid rgba(0, 0, 0, 0.50);
-            display: block;
-            line-height: 45px;
+            padding: 13px 0;
             color: $black;
-            font-weight: 600;
-            text-align: center;
+            background-color: $white;
         }
         .header__section__link--mod {
+            @include btn;
             width: 120px;
-            background-color: $secondary_color;
-            display: block;
-            line-height: 45px;
-            color: $black;
-            font-weight: 600;
-            text-align: center;
+            padding: 14px 0;
         }
     }
 }

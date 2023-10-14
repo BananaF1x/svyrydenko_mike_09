@@ -1,15 +1,21 @@
 .main__section--wrapp--mod {
-    background-color: #DABC98;
+    padding: 85px 15%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DABC98;
     .main__section--wrapp--mod__container {
         display: flex;
-        img {
-
-        }
+        align-items: center;
+        gap: 0 67px;
         h3 {
-
+            font-size: 35px;
+            font-weight: 600;
+            line-height: 50px;
         }
         .main__section--wrapp--mod__container__item {
+            padding-left: 70px;
+            border-left: 1px solid #000;
             img {
                 display: block;
             }

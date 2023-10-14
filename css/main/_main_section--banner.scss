@@ -1,11 +1,23 @@
 .main__section--banner {
-    .main__section--banner__text {
-
+    padding-top: 169px;
+    text-align: center;
+    h2 {
+        font-size: 65px;
+        font-weight: 600;
+        line-height: 75px;
     }
-    .main__section--banner {
-
+    p {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 25px;
     }
-    .main__section--banner__btn {
-        
+    a {
+        display: block;
+        width: fit-content;
+        margin: 32px auto 162px;
+        padding: 20px;
+        background-color: #FF6336;
+        color: #fff;
+        font-weight: 600;
     }
 }

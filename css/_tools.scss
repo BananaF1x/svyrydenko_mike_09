@@ -1,10 +1,26 @@
+// variable
 $white: #fff;
+$white--mod: #CCC;
 $black: #000;
 $secondary_color: #FF6336;
+$secondary_color--mod: #FF9C7D;
+$secondary_color--add: #FFF8E4;
+$secondary_color--spec: #DABC98;
+$main_size-width: 69%;
 
 // mixins
 @mixin headers {
-    font-size: 50xp;
+    font-size: 3.125rem;
     font-weight: 600;
     line-height: 60px;
+}
+
+@mixin btn {
+    width: 160px;
+    background-color: $secondary_color;
+    display: block;
+    padding: 21px 0;
+    color: $white;
+    font-weight: 600;
+    text-align: center;
 }

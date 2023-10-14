@@ -1,0 +1,26 @@
+.main__section__secondary--logo {
+    background-color: #FF9C7D;
+    padding: 119px 0 161px;
+    text-align: center;
+    h2 {
+        font-size: 65px;
+        font-weight: 600;
+        line-height: 75px;
+    }
+    span {
+        display: block;
+        padding: 29px 0 54px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    a {
+        width: fit-content;
+        margin: 0 auto;
+        display: block;
+        color: #fff; 
+        font-size: 17px;
+        font-weight: 600;
+        padding: 20px 40px;
+        background-color: #000;
+    }
+}

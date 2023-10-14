@@ -1,37 +1,66 @@
+@font-face {
+  font-family: "Graphik";
+  src: url("fonts/Graphik-Regular.eot");
+  src: local("Graphik Regular"), local("Graphik-Regular"), url("fonts/Graphik-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Graphik-Regular.woff2") format("woff2"), url("fonts/Graphik-Regular.woff") format("woff"), url("fonts/Graphik-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("fonts/Graphik-Semibold.eot");
+  src: local("Graphik Semibold"), local("Graphik-Semibold"), url("fonts/Graphik-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/Graphik-Semibold.woff2") format("woff2"), url("fonts/Graphik-Semibold.woff") format("woff"), url("fonts/Graphik-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-weight: 400;
   text-decoration: none;
-  box-sizing: border-box;
+}
+
+ul {
   list-style: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Graphik", sans-serif;
+  font-size: 1rem;
+}
+
+.text__decoration {
+  text-decoration: underline;
 }
 
 .header__section {
   display: flex;
   justify-content: space-between;
   background-color: #fff;
-  padding: 0 4%;
+  padding: 0 15%;
   border-bottom: 1px solid #CCC;
 }
 .header__section .header__section__container {
   display: flex;
   align-items: center;
   padding: 34px 0;
-  margin-right: 3%;
+  gap: 0 50px;
 }
 .header__section .header__section__container .header__section__container__nav {
-  width: 41%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 51px;
-  gap: 50px;
+  gap: 0 50px;
 }
 .header__section .header__section__container .header__section__container__nav .header__nav__list .header__nav__link {
-  white-space: nowrap;
-  width: -moz-fit-content;
-  width: fit-content;
   color: #000;
+  font-size: 0.9375rem;
 }
 .header__section .header__section__btn {
   display: flex;
@@ -39,81 +68,100 @@
   gap: 10px;
 }
 .header__section .header__section__btn .header__section__link {
-  width: 120px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  display: block;
-  line-height: 45px;
-  color: #000;
-  font-weight: 600;
-  text-align: center;
-}
-.header__section .header__section__btn .header__section__link--mod {
-  width: 120px;
+  width: 160px;
   background-color: #FF6336;
   display: block;
-  line-height: 45px;
-  color: #000;
+  padding: 21px 0;
+  color: #fff;
   font-weight: 600;
   text-align: center;
+  width: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 13px 0;
+  color: #000;
+  background-color: #fff;
+}
+.header__section .header__section__btn .header__section__link--mod {
+  width: 160px;
+  background-color: #FF6336;
+  display: block;
+  padding: 21px 0;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  width: 120px;
+  padding: 14px 0;
 }
 
 .header__section--primary {
-  width: 92%;
+  width: 69%;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  padding-top: 129px;
 }
 .header__section--primary .header__section__item {
   width: 40%;
 }
 .header__section--primary .header__section__item .header__section__item__header {
-  font-size: 65px;
+  font-size: 3.125rem;
   font-weight: 600;
+  line-height: 60px;
+  font-size: 4.0625rem;
   line-height: 70px;
 }
 .header__section--primary .header__section__item .header__section__item__text {
-  margin: 51px 0;
-  font-size: 25px;
+  margin: 50px 0;
+  font-size: 1.5625rem;
   line-height: 35px;
 }
 .header__section--primary .header__section__item .header__section__btn {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0 10px;
 }
 .header__section--primary .header__section__item .header__section__btn .header__section__link--mod {
-  width: 120px;
+  width: 160px;
   background-color: #FF6336;
   display: block;
-  line-height: 45px;
-  color: #000;
+  padding: 21px 0;
+  color: #fff;
   font-weight: 600;
   text-align: center;
 }
 .header__section--primary .header__section__item .header__section__btn .header__section__link {
-  width: 120px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 160px;
+  background-color: #FF6336;
   display: block;
-  line-height: 45px;
-  color: #000;
+  padding: 21px 0;
+  color: #fff;
   font-weight: 600;
   text-align: center;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 20px 0;
+  color: #000;
 }
 .header__section--primary .header__section__item .header__section__item__text--mod {
   display: block;
   margin-top: 25px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 25px;
 }
 .header__section--primary .header__section__container {
   width: 60%;
   text-align: center;
 }
+.header__section--primary .header__section__container img {
+  width: 100%;
+}
 
 .main__section--logo {
   width: 100%;
+  padding: 0 15%;
   margin-top: 172px;
   background-color: #FF9C7D;
+  font-family: Graphik LC TT;
 }
 .main__section--logo .main__section__heading {
   padding-top: 98px;
@@ -134,12 +182,13 @@
 }
 
 .main__section {
-  width: 90%;
+  width: 69%;
   margin: 90px auto 150px;
 }
 .main__section .main__section__container {
   display: flex;
   align-items: center;
+  gap: 137px;
   margin: 100px 0 150px;
 }
 .main__section .main__section__container .main__sc__item {
@@ -241,15 +290,82 @@
   display: block;
 }
 .main__section--wrapp--mod {
-  background-color: #DABC98;
+  padding: 85px 15%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DABC98;
 }
 .main__section--wrapp--mod .main__section--wrapp--mod__container {
   display: flex;
+  align-items: center;
+  gap: 0 67px;
+}
+.main__section--wrapp--mod .main__section--wrapp--mod__container h3 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.main__section--wrapp--mod .main__section--wrapp--mod__container .main__section--wrapp--mod__container__item {
+  padding-left: 70px;
+  border-left: 1px solid #000;
 }
 .main__section--wrapp--mod .main__section--wrapp--mod__container .main__section--wrapp--mod__container__item img {
   display: block;
 }
 .main__section--wrapp--mod .main__section--wrapp--mod__container .main__section--wrapp--mod__container__item span {
   display: block;
+}
+
+.main__section--banner {
+  padding-top: 169px;
+  text-align: center;
+}
+.main__section--banner h2 {
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 75px;
+}
+.main__section--banner p {
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 25px;
+}
+.main__section--banner a {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 32px auto 162px;
+  padding: 20px;
+  background-color: #FF6336;
+  color: #fff;
+  font-weight: 600;
+}
+
+.main__section__secondary--logo {
+  background-color: #FF9C7D;
+  padding: 119px 0 161px;
+  text-align: center;
+}
+.main__section__secondary--logo h2 {
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 75px;
+}
+.main__section__secondary--logo span {
+  display: block;
+  padding: 29px 0 54px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.main__section__secondary--logo a {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 20px 40px;
+  background-color: #000;
 }/*# sourceMappingURL=style.css.map */
