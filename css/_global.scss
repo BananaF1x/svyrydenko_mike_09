@@ -43,6 +43,7 @@ html {
 }
 
 body {
+	color: $black;
 	font-family: "Graphik", sans-serif;
 	font-size: 1rem;
 }
@@ -53,4 +54,8 @@ body {
 	&:hover {
 		color: $secondary_color;
 	}
+}
+
+.footer {
+	background-color: $white--add;
 }

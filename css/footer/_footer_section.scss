@@ -1,0 +1,58 @@
+.footer__section {
+    width: $main_size-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $black;
+    padding: 95px 0;
+    .footer__section__container {
+        width: 30%;
+        .footer__section__container__heading {
+            @include fonts(2.5rem, 600, 50px);
+            padding-bottom: 28px;
+        }
+        .footer__section__container__img {
+            margin-bottom: 31px;
+            .footer__section__container__img__item {
+                display: block;
+            }
+        }
+        .footer__section__container__img--mod {
+            .footer__section__container__img--mod__item {
+                display: block;
+            }
+        }
+        .footer__section__container__text {
+            @include fonts(1.25rem, 400, 30px);
+            padding: 13px 0;
+        }
+        .footer__section__container__link {
+            @include fonts(1.25rem, 600, 30px);
+            color: $black;
+            &:hover {
+                color: $secondary_color;
+            }
+        }
+    }
+    .footer__section__container--mod {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        .footer__section__container--mod__item {
+            .footer__section__container--mod__item__heading {
+                @include fonts(1.25rem, 600, 25px);
+                padding-bottom: 21px
+            }
+            .footer__section__container--mod__item__link {
+                @include fonts(0.9375rem, 400, 15px);
+                display: block;
+                color: $black;
+                padding-bottom: 15px;
+                white-space: nowrap;
+                &:hover {
+                    color: $secondary_color;
+                }
+            }
+        }
+    }
+}

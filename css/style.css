@@ -31,6 +31,7 @@ html {
 }
 
 body {
+  color: #000;
   font-family: "Graphik", sans-serif;
   font-size: 1rem;
 }
@@ -41,6 +42,10 @@ body {
 }
 .text__link:hover {
   color: #FF6336;
+}
+
+.footer {
+  background-color: #EEEEEE;
 }
 
 .header__section {
@@ -455,4 +460,99 @@ body {
 .main__section__secondary--logo .main__section__secondary--logo__link:hover {
   background-color: #FF6336;
   transition: all 1s;
+}
+
+.footer__section {
+  width: 69%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding: 95px 0;
+}
+.footer__section .footer__section__container {
+  width: 30%;
+}
+.footer__section .footer__section__container .footer__section__container__heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 50px;
+  padding-bottom: 28px;
+}
+.footer__section .footer__section__container .footer__section__container__img {
+  margin-bottom: 31px;
+}
+.footer__section .footer__section__container .footer__section__container__img .footer__section__container__img__item {
+  display: block;
+}
+.footer__section .footer__section__container .footer__section__container__img--mod .footer__section__container__img--mod__item {
+  display: block;
+}
+.footer__section .footer__section__container .footer__section__container__text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 13px 0;
+}
+.footer__section .footer__section__container .footer__section__container__link {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 30px;
+  color: #000;
+}
+.footer__section .footer__section__container .footer__section__container__link:hover {
+  color: #FF6336;
+}
+.footer__section .footer__section__container--mod {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__section .footer__section__container--mod .footer__section__container--mod__item .footer__section__container--mod__item__heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 25px;
+  padding-bottom: 21px;
+}
+.footer__section .footer__section__container--mod .footer__section__container--mod__item .footer__section__container--mod__item__link {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 15px;
+  display: block;
+  color: #000;
+  padding-bottom: 15px;
+  white-space: nowrap;
+}
+.footer__section .footer__section__container--mod .footer__section__container--mod__item .footer__section__container--mod__item__link:hover {
+  color: #FF6336;
+}
+
+.footer__section-lokalize {
+  width: 69%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.footer__section-lokalize .footer__section-lokalize__container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.footer__section-lokalize .footer__section-lokalize__container .footer__section-lokalize__container__img .footer__section-lokalize__container__img__item {
+  display: block;
+}
+.footer__section-lokalize .footer__section-lokalize__container .footer__section-lokalize__container__text {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 15px;
+}
+.footer__section-lokalize .footer__section-lokalize__container--mod {
+  padding-right: 76px;
+}
+.footer__section-lokalize .footer__section-lokalize__container--mod .footer__section-lokalize__container--mod__element {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 15px;
+  display: block;
 }/*# sourceMappingURL=style.css.map */

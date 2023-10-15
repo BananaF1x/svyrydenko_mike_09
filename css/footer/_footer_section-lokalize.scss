@@ -1,0 +1,27 @@
+.footer__section-lokalize {
+    width: $main_size-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    .footer__section-lokalize__container{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        .footer__section-lokalize__container__img {
+            .footer__section-lokalize__container__img__item {
+                display: block;
+            }
+        }
+        .footer__section-lokalize__container__text {
+            @include fonts(0.75rem, 400, 15px);
+        }
+    }
+    .footer__section-lokalize__container--mod {
+        padding-right: 76px;
+        .footer__section-lokalize__container--mod__element {
+            @include fonts(0.75rem, 400, 15px);
+            display: block;
+        }
+    }
+}
