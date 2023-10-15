@@ -35,8 +35,12 @@ body {
   font-size: 1rem;
 }
 
-.text__decoration {
+.text__link {
   text-decoration: underline;
+  color: #000;
+}
+.text__link:hover {
+  color: #FF6336;
 }
 
 .header__section {
@@ -62,6 +66,9 @@ body {
   color: #000;
   font-size: 0.9375rem;
 }
+.header__section .header__section__container .header__section__container__nav .header__nav__list .header__nav__link:hover {
+  color: #FF6336;
+}
 .header__section .header__section__btn {
   display: flex;
   align-items: center;
@@ -81,6 +88,10 @@ body {
   color: #000;
   background-color: #fff;
 }
+.header__section .header__section__btn .header__section__link:hover {
+  background-color: #FF6336;
+  transition: all 1s;
+}
 .header__section .header__section__btn .header__section__link--mod {
   width: 160px;
   background-color: #FF6336;
@@ -91,6 +102,10 @@ body {
   text-align: center;
   width: 120px;
   padding: 14px 0;
+}
+.header__section .header__section__btn .header__section__link--mod:hover {
+  background-color: #000;
+  transition: all 1s;
 }
 
 .header__section--primary {
@@ -128,6 +143,10 @@ body {
   font-weight: 600;
   text-align: center;
 }
+.header__section--primary .header__section__item .header__section__btn .header__section__link--mod:hover {
+  background-color: #000;
+  transition: all 1s;
+}
 .header__section--primary .header__section__item .header__section__btn .header__section__link {
   width: 160px;
   background-color: #FF6336;
@@ -140,6 +159,10 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.5);
   padding: 20px 0;
   color: #000;
+}
+.header__section--primary .header__section__item .header__section__btn .header__section__link:hover {
+  background-color: #FF6336;
+  transition: all 1s;
 }
 .header__section--primary .header__section__item .header__section__item__text--mod {
   display: block;
@@ -208,6 +231,9 @@ body {
   font-weight: 600;
   line-height: 30px;
   color: #000;
+}
+.main__section .main__section__container .main__section__container__item .main__section__container__item__link:hover {
+  color: #FF6336;
 }
 .main__section .main__section__container .main__section__container__img {
   text-align: center;
@@ -304,6 +330,9 @@ body {
   text-decoration: underline;
   color: #000;
 }
+.main__section--spec .main__section--spec__wrapp .main__section--spec__container .main__section--spec__container__link:hover {
+  color: #FF6336;
+}
 
 .main__section--about {
   background-color: #C9E8F2;
@@ -390,6 +419,10 @@ body {
   color: #fff;
   font-weight: 600;
 }
+.main__section--banner .main__section--banner__link:hover {
+  background-color: #000;
+  transition: all 1s;
+}
 
 .main__section__secondary--logo {
   background-color: #FF9C7D;
@@ -418,4 +451,8 @@ body {
   text-align: center;
   margin: 0 auto;
   background-color: #000;
+}
+.main__section__secondary--logo .main__section__secondary--logo__link:hover {
+  background-color: #FF6336;
+  transition: all 1s;
 }/*# sourceMappingURL=style.css.map */

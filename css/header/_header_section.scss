@@ -18,6 +18,9 @@
                 .header__nav__link {
                     color: $black;
                     font-size: 0.9375rem;
+                    &:hover {
+                        color: $secondary_color;
+                    }
                 }
             }
         }
@@ -33,11 +36,19 @@
             padding: 13px 0;
             color: $black;
             background-color: $white;
+            &:hover {
+                background-color: $secondary_color;
+                transition: all 1s;
+            }
         }
         .header__section__link--mod {
             @include btn;
             width: 120px;
             padding: 14px 0;
+            &:hover {
+                background-color: $black;
+                transition: all 1s;
+            }
         }
     }
 }

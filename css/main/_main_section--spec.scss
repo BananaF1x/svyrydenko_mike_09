@@ -37,6 +37,9 @@
                 @include fonts(1.25rem, 400, 30px);
                 text-decoration: underline;
                 color: $black;
+                &:hover {
+                    color: $secondary_color;
+                }
             }
         }
     }

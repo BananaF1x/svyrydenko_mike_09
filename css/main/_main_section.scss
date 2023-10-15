@@ -23,6 +23,9 @@
                 font-weight: 600;
                 line-height: 30px;
                 color: #000;
+                &:hover {
+                    color: $secondary_color;
+                }
             }
         }
         .main__section__container__img {

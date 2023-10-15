@@ -47,6 +47,10 @@ body {
 	font-size: 1rem;
 }
 
-.text__decoration {
+.text__link {
 	text-decoration: underline;
+	color: $black;
+	&:hover {
+		color: $secondary_color;
+	}
 }
