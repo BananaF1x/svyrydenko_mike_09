@@ -1,14 +1,14 @@
-.main__section--mod__wrapp {
+.lokalise {
     background-color: #FFF8E4;
     padding-bottom: 150px;
-    .main__section--mod__heading {
+    .lokalise-title {
         font-size: 50px;
         font-weight: 600;
         line-height: 60px;
         padding: 120px 0 58px;
         text-align: center;
     }
-    .main__section--mod {
+    .lokalise-container {
         width: 69%;
         margin: 0 auto;
         display: flex;
@@ -17,16 +17,16 @@
         flex-wrap: wrap;
         gap: 54px 110px;
         padding: 0 60px;
-        .main__section--mod__container {
+        .lokalise-container__item {
             width: calc((100% / 3) - 110px);
             text-align: center;
-            .main__section--mod__container__heading {
+            .lokalise-container__title {
                 padding: 23px 0;
                 font-size: 23px;
                 font-weight: 600;
                 line-height: 35px;
             }
-            .main__section--mod__container__text {
+            .lokalise-container__text {
                 font-size: 18px;
                 line-height: 25px;
             }

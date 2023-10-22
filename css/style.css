@@ -48,38 +48,38 @@ body {
   background-color: #EEEEEE;
 }
 
-.header__section {
+.section-nav {
   display: flex;
   justify-content: space-between;
   background-color: #fff;
   padding: 0 15%;
   border-bottom: 1px solid #CCC;
 }
-.header__section .header__section__container {
+.section-nav .container {
   display: flex;
   align-items: center;
   padding: 34px 0;
   gap: 0 50px;
 }
-.header__section .header__section__container .header__section__container__nav {
+.section-nav .container .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0 50px;
 }
-.header__section .header__section__container .header__section__container__nav .header__nav__list .header__nav__link {
+.section-nav .container .nav .nav__list .nav__link {
   color: #000;
   font-size: 0.9375rem;
 }
-.header__section .header__section__container .header__section__container__nav .header__nav__list .header__nav__link:hover {
+.section-nav .container .nav .nav__list .nav__link:hover {
   color: #FF6336;
 }
-.header__section .header__section__btn {
+.section-nav .btn {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.header__section .header__section__btn .header__section__link {
+.section-nav .btn .btn__link--size--white {
   width: 160px;
   background-color: #FF6336;
   display: block;
@@ -93,11 +93,11 @@ body {
   color: #000;
   background-color: #fff;
 }
-.header__section .header__section__btn .header__section__link:hover {
+.section-nav .btn .btn__link--size--white:hover {
   background-color: #FF6336;
   transition: all 1s;
 }
-.header__section .header__section__btn .header__section__link--mod {
+.section-nav .btn .btn__link--size {
   width: 160px;
   background-color: #FF6336;
   display: block;
@@ -108,38 +108,38 @@ body {
   width: 120px;
   padding: 14px 0;
 }
-.header__section .header__section__btn .header__section__link--mod:hover {
+.section-nav .btn .btn__link--size:hover {
   background-color: #000;
   transition: all 1s;
 }
 
-.header__section--primary {
+.section-primary {
   width: 69%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   padding-top: 129px;
 }
-.header__section--primary .header__section__item {
+.section-primary .section__item {
   width: 45%;
 }
-.header__section--primary .header__section__item .header__section__item__header {
+.section-primary .section__item .main-title {
   font-size: 4.0625rem;
   font-weight: 600;
   line-height: 70px;
 }
-.header__section--primary .header__section__item .header__section__item__text {
+.section-primary .section__item .section-text {
   margin: 50px 0;
   font-size: 1.5625rem;
   font-weight: 400;
   line-height: 35px;
 }
-.header__section--primary .header__section__item .header__section__btn {
+.section-primary .section__item .btn {
   display: flex;
   align-items: center;
   gap: 0 10px;
 }
-.header__section--primary .header__section__item .header__section__btn .header__section__link--mod {
+.section-primary .section__item .btn .btn__link {
   width: 160px;
   background-color: #FF6336;
   display: block;
@@ -148,11 +148,11 @@ body {
   font-weight: 600;
   text-align: center;
 }
-.header__section--primary .header__section__item .header__section__btn .header__section__link--mod:hover {
+.section-primary .section__item .btn .btn__link:hover {
   background-color: #000;
   transition: all 1s;
 }
-.header__section--primary .header__section__item .header__section__btn .header__section__link {
+.section-primary .section__item .btn .btn__link--white {
   width: 160px;
   background-color: #FF6336;
   display: block;
@@ -165,32 +165,32 @@ body {
   padding: 20px 0;
   color: #000;
 }
-.header__section--primary .header__section__item .header__section__btn .header__section__link:hover {
+.section-primary .section__item .btn .btn__link--white:hover {
   background-color: #FF6336;
   transition: all 1s;
 }
-.header__section--primary .header__section__item .header__section__item__text--mod {
+.section-primary .section__item .section-subtext {
   display: block;
   margin-top: 25px;
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 25px;
 }
-.header__section--primary .header__section__container {
+.section-primary .img-container {
   width: 55%;
 }
-.header__section--primary .header__section__container .header__section__container__img {
+.section-primary .img-container .main-img {
   display: block;
   width: 100%;
 }
 
-.main__section--logo {
+.logo {
   width: 100%;
   padding: 0 15%;
   margin-top: 172px;
   background-color: #FF9C7D;
 }
-.main__section--logo .main__section--logo__heading {
+.logo .logo-title {
   padding-top: 98px;
   padding-bottom: 70px;
   text-align: center;
@@ -198,69 +198,69 @@ body {
   font-weight: 600;
   line-height: 60px;
 }
-.main__section--logo .main__section--logo__img {
+.logo .wrapper-img {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 7%;
 }
-.main__section--logo .main__section--logo__img .main__section--logo__img__item {
+.logo .wrapper-img .companies-logo {
   padding-bottom: 94px;
 }
 
-.main__section {
+.services {
   width: 69%;
   margin: 90px auto 150px;
 }
-.main__section .main__section__container {
+.services .container {
   display: flex;
   align-items: center;
   gap: 137px;
   margin: 100px 0 150px;
 }
-.main__section .main__section__container .main__section__container__item {
+.services .container .container__item {
   width: 50%;
 }
-.main__section .main__section__container .main__section__container__item .main__section__container__item__heading {
+.services .container .container__item .container__title {
   font-size: 50px;
   font-weight: 600;
   line-height: 60px;
 }
-.main__section .main__section__container .main__section__container__item .main__section__container__item__text {
+.services .container .container__item .container__text {
   padding: 30px 0;
   font-size: 20px;
   line-height: 30px;
 }
-.main__section .main__section__container .main__section__container__item .main__section__container__item__link {
+.services .container .container__item .container__link {
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
   color: #000;
 }
-.main__section .main__section__container .main__section__container__item .main__section__container__item__link:hover {
+.services .container .container__item .container__link:hover {
   color: #FF6336;
 }
-.main__section .main__section__container .main__section__container__img {
+.services .container .container__wrapp {
   text-align: center;
   width: 50%;
 }
-.main__section .main__section__container .main__section__container__img .main__section__container__img__item {
+.services .container .container__wrapp .container__img {
   width: 100%;
   display: block;
 }
 
-.main__section--mod__wrapp {
+.lokalise {
   background-color: #FFF8E4;
   padding-bottom: 150px;
 }
-.main__section--mod__wrapp .main__section--mod__heading {
+.lokalise .lokalise-title {
   font-size: 50px;
   font-weight: 600;
   line-height: 60px;
   padding: 120px 0 58px;
   text-align: center;
 }
-.main__section--mod__wrapp .main__section--mod {
+.lokalise .lokalise-container {
   width: 69%;
   margin: 0 auto;
   display: flex;
@@ -270,32 +270,32 @@ body {
   gap: 54px 110px;
   padding: 0 60px;
 }
-.main__section--mod__wrapp .main__section--mod .main__section--mod__container {
+.lokalise .lokalise-container .lokalise-container__item {
   width: calc(33.3333333333% - 110px);
   text-align: center;
 }
-.main__section--mod__wrapp .main__section--mod .main__section--mod__container .main__section--mod__container__heading {
+.lokalise .lokalise-container .lokalise-container__item .lokalise-container__title {
   padding: 23px 0;
   font-size: 23px;
   font-weight: 600;
   line-height: 35px;
 }
-.main__section--mod__wrapp .main__section--mod .main__section--mod__container .main__section--mod__container__text {
+.lokalise .lokalise-container .lokalise-container__item .lokalise-container__text {
   font-size: 18px;
   line-height: 25px;
 }
 
-.main__section--spec {
+.localization-team {
   padding-bottom: 187px;
 }
-.main__section--spec .main__section__heading {
+.localization-team .localization-team-title {
   font-size: 3.125rem;
   font-weight: 600;
   line-height: 60px;
   text-align: center;
   padding: 154px 0 75px;
 }
-.main__section--spec .main__section--spec__wrapp {
+.localization-team .localization-team-container {
   width: 69%;
   margin: 0 auto;
   display: flex;
@@ -303,118 +303,117 @@ body {
   align-items: center;
   gap: 30px;
 }
-.main__section--spec .main__section--spec__wrapp .main__section--spec__container {
+.localization-team .localization-team-container .localization-team-container__item {
   width: 33.3333333333%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 25px;
 }
-.main__section--spec .main__section--spec__wrapp .main__section--spec__container .main__section--spec__container__img {
+.localization-team .localization-team-container .localization-team-container__item .localization-team-container__wrapp {
   height: 201px;
   display: flex;
   align-items: center;
 }
-.main__section--spec .main__section--spec__wrapp .main__section--spec__container .main__section--spec__container__img .main__section--spec__container__img__item {
+.localization-team .localization-team-container .localization-team-container__item .localization-team-container__wrapp .localization-team-container__img {
   display: block;
 }
-.main__section--spec .main__section--spec__wrapp .main__section--spec__container .main__section--spec__container__heading {
+.localization-team .localization-team-container .localization-team-container__item .localization-team-container__title {
   font-size: 1.875rem;
   font-weight: 600;
   line-height: 40px;
 }
-.main__section--spec .main__section--spec__wrapp .main__section--spec__container .main__section--spec__container__text {
+.localization-team .localization-team-container .localization-team-container__item .localization-team-container__text {
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 30px;
 }
-.main__section--spec .main__section--spec__wrapp .main__section--spec__container .main__section--spec__container__link {
+.localization-team .localization-team-container .localization-team-container__item .localization-team-container__link {
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 30px;
   text-decoration: underline;
   color: #000;
 }
-.main__section--spec .main__section--spec__wrapp .main__section--spec__container .main__section--spec__container__link:hover {
+.localization-team .localization-team-container .localization-team-container__item .localization-team-container__link:hover {
   color: #FF6336;
 }
 
-.main__section--about {
+.quote {
   background-color: #C9E8F2;
   display: flex;
   gap: 85px;
   padding: 53px 15% 105px;
 }
-.main__section--about .main__section--about__container .main__section--about__container__text {
+.quote .quote-container .quote-text {
   font-size: 1.875rem;
   font-weight: 400;
   line-height: 40px;
 }
-.main__section--about .main__section--about__container .main__section--about__container__element {
+.quote .quote-container .quote-element {
   display: block;
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 25px;
   padding: 25px 0 5px;
 }
-.main__section--about .main__section--about__container .main__section--about__container__img {
+.quote .quote-container .quote-img {
   display: block;
 }
-.main__section--about .main__section--about__img .main__section--about__img__item {
+.quote .quote-wrapp .photo {
   display: block;
 }
 
-.main__section--wrapp--mod {
+.software {
   padding: 85px 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #DABC98;
 }
-.main__section--wrapp--mod .main__section--wrapp--mod__container {
+.software .software-container {
   display: flex;
   align-items: center;
   gap: 0 67px;
 }
-.main__section--wrapp--mod .main__section--wrapp--mod__container .main__section--wrapp--mod__container__heading {
+.software .software-container .software-title {
   font-size: 2.1875rem;
   font-weight: 600;
   line-height: 50px;
 }
-.main__section--wrapp--mod .main__section--wrapp--mod__container .main__section--wrapp--mod__container__item {
+.software .software-container .software-wrapp {
   padding: 25px 0;
 }
-.main__section--wrapp--mod .main__section--wrapp--mod__container .main__section--wrapp--mod__container__item .main__section--wrapp--mod__container__item__img {
+.software .software-container .software-wrapp .icon {
   display: block;
   padding: 15px 0;
 }
-.main__section--wrapp--mod .main__section--wrapp--mod__container .main__section--wrapp--mod__container__item .main__section--wrapp--mod__container__item__text {
-  display: block;
+.software .software-container .software-wrapp .software-text {
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1px;
   text-transform: uppercase;
 }
-.main__section--wrapp--mod .main__section--wrapp--mod__container:nth-child(2) {
+.software .software-container:nth-child(2) {
   border-left: 1px solid #000;
   padding-left: 70px;
 }
 
-.main__section--banner {
+.banner {
   padding-top: 169px;
   text-align: center;
 }
-.main__section--banner .main__section--banner__heading {
+.banner .banner__title {
   font-size: 65px;
   font-weight: 600;
   line-height: 75px;
 }
-.main__section--banner .main__section--banner__text {
+.banner .banner__text {
   font-size: 25px;
   line-height: 30px;
   padding-bottom: 25px;
 }
-.main__section--banner .main__section--banner__link {
+.banner .banner__link {
   display: block;
   width: -moz-fit-content;
   width: fit-content;
@@ -424,29 +423,29 @@ body {
   color: #fff;
   font-weight: 600;
 }
-.main__section--banner .main__section--banner__link:hover {
+.banner .banner__link:hover {
   background-color: #000;
   transition: all 1s;
 }
 
-.main__section__secondary--logo {
+.secondary-logo {
   background-color: #FF9C7D;
   padding: 119px 0 161px;
   text-align: center;
 }
-.main__section__secondary--logo .main__section__secondary--logo__heading {
+.secondary-logo .secondary-logo__title {
   font-size: 4.0625rem;
   font-weight: 600;
   line-height: 75px;
 }
-.main__section__secondary--logo .main__section__secondary--logo__text {
+.secondary-logo .secondary-logo__text {
   display: block;
   padding: 29px 0 54px;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 30px;
 }
-.main__section__secondary--logo .main__section__secondary--logo__link {
+.secondary-logo .secondary-logo__link {
   width: 160px;
   background-color: #FF6336;
   display: block;
@@ -457,12 +456,12 @@ body {
   margin: 0 auto;
   background-color: #000;
 }
-.main__section__secondary--logo .main__section__secondary--logo__link:hover {
+.secondary-logo .secondary-logo__link:hover {
   background-color: #FF6336;
   transition: all 1s;
 }
 
-.footer__section {
+.footer-section {
   width: 69%;
   margin: 0 auto;
   display: flex;
@@ -470,51 +469,47 @@ body {
   border-bottom: 1px solid #000;
   padding: 95px 0;
 }
-.footer__section .footer__section__container {
+.footer-section .case-studies {
   width: 30%;
 }
-.footer__section .footer__section__container .footer__section__container__heading {
+.footer-section .case-studies .case-studies__title {
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 50px;
-  padding-bottom: 28px;
 }
-.footer__section .footer__section__container .footer__section__container__img {
-  margin-bottom: 31px;
+.footer-section .case-studies .case-studies__wrapp {
+  margin-top: 30px;
 }
-.footer__section .footer__section__container .footer__section__container__img .footer__section__container__img__item {
+.footer-section .case-studies .case-studies__wrapp .case-studies__img {
   display: block;
 }
-.footer__section .footer__section__container .footer__section__container__img--mod .footer__section__container__img--mod__item {
-  display: block;
-}
-.footer__section .footer__section__container .footer__section__container__text {
+.footer-section .case-studies .case-studies__text {
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 30px;
   padding: 13px 0;
 }
-.footer__section .footer__section__container .footer__section__container__link {
+.footer-section .case-studies .case-studies__link {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 30px;
   color: #000;
 }
-.footer__section .footer__section__container .footer__section__container__link:hover {
+.footer-section .case-studies .case-studies__link:hover {
   color: #FF6336;
 }
-.footer__section .footer__section__container--mod {
+.footer-section .info {
   width: 70%;
   display: flex;
   justify-content: space-between;
 }
-.footer__section .footer__section__container--mod .footer__section__container--mod__item .footer__section__container--mod__item__heading {
+.footer-section .info .info__container .info__title {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 25px;
   padding-bottom: 21px;
 }
-.footer__section .footer__section__container--mod .footer__section__container--mod__item .footer__section__container--mod__item__link {
+.footer-section .info .info__container .info__link {
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 15px;
@@ -523,34 +518,34 @@ body {
   padding-bottom: 15px;
   white-space: nowrap;
 }
-.footer__section .footer__section__container--mod .footer__section__container--mod__item .footer__section__container--mod__item__link:hover {
+.footer-section .info .info__container .info__link:hover {
   color: #FF6336;
 }
 
-.footer__section-lokalize {
+.footer-lokalise {
   width: 69%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
 }
-.footer__section-lokalize .footer__section-lokalize__container {
+.footer-lokalise .lokalise-container {
   display: flex;
   align-items: center;
   gap: 14px;
 }
-.footer__section-lokalize .footer__section-lokalize__container .footer__section-lokalize__container__img .footer__section-lokalize__container__img__item {
+.footer-lokalise .lokalise-container .footer-wrapp .lokalise-img {
   display: block;
 }
-.footer__section-lokalize .footer__section-lokalize__container .footer__section-lokalize__container__text {
+.footer-lokalise .lokalise-container .lokalise-text {
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 15px;
 }
-.footer__section-lokalize .footer__section-lokalize__container--mod {
+.footer-lokalise .lokalise-item {
   padding-right: 76px;
 }
-.footer__section-lokalize .footer__section-lokalize__container--mod .footer__section-lokalize__container--mod__element {
+.footer-lokalise .lokalise-item .additional-text {
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 15px;

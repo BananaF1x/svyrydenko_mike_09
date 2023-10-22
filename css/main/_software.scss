@@ -1,24 +1,23 @@
-.main__section--wrapp--mod {
+.software {
     padding: 85px 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #DABC98;
-    .main__section--wrapp--mod__container {
+    .software-container {
         display: flex;
         align-items: center;
         gap: 0 67px;
-        .main__section--wrapp--mod__container__heading {
+        .software-title {
             @include fonts(2.1875rem, 600, 50px);
         }
-        .main__section--wrapp--mod__container__item {
+        .software-wrapp {
             padding: 25px 0;
-            .main__section--wrapp--mod__container__item__img {
+            .icon {
                 display: block;
                 padding: 15px 0;
             }
-            .main__section--wrapp--mod__container__item__text {
-                display: block;
+            .software-text {
                 @include fonts(0.9375rem, 400, 1px);
                 text-transform: uppercase;
             }

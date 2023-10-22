@@ -1,32 +1,26 @@
-.footer__section {
+.footer-section {
     width: $main_size-width;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid $black;
     padding: 95px 0;
-    .footer__section__container {
+    .case-studies {
         width: 30%;
-        .footer__section__container__heading {
+        .case-studies__title {
             @include fonts(2.5rem, 600, 50px);
-            padding-bottom: 28px;
         }
-        .footer__section__container__img {
-            margin-bottom: 31px;
-            .footer__section__container__img__item {
+        .case-studies__wrapp {
+            margin-top: 30px;
+            .case-studies__img {
                 display: block;
             }
         }
-        .footer__section__container__img--mod {
-            .footer__section__container__img--mod__item {
-                display: block;
-            }
-        }
-        .footer__section__container__text {
+        .case-studies__text {
             @include fonts(1.25rem, 400, 30px);
             padding: 13px 0;
         }
-        .footer__section__container__link {
+        .case-studies__link {
             @include fonts(1.25rem, 600, 30px);
             color: $black;
             &:hover {
@@ -34,16 +28,16 @@
             }
         }
     }
-    .footer__section__container--mod {
+    .info {
         width: 70%;
         display: flex;
         justify-content: space-between;
-        .footer__section__container--mod__item {
-            .footer__section__container--mod__item__heading {
+        .info__container {
+            .info__title {
                 @include fonts(1.25rem, 600, 25px);
                 padding-bottom: 21px
             }
-            .footer__section__container--mod__item__link {
+            .info__link {
                 @include fonts(0.9375rem, 400, 15px);
                 display: block;
                 color: $black;

@@ -2,19 +2,19 @@
 @import "global";
 
 // header
-@import "header/header_section";
-@import "header/header_section--primary";
+@import "header/section-nav";
+@import "header/section-primary";
 
 // main
-@import "main/main_section--logo";
-@import "main/main_section";
-@import "main/main_section--wrapp";
-@import "main/main_section--spec";
-@import "main/main_section--about";
-@import "main/main_section--wrapp--mod";
-@import "main/main_section--banner";
-@import "main/main_section_secondary--logo";
+@import "main/logo";
+@import "main/services";
+@import "main/lokalise";
+@import "main/localization-team";
+@import "main/quote";
+@import "main/software";
+@import "main/banner";
+@import "main/secondary-logo";
 
 // footer
 @import "footer/footer_section";
-@import "footer/footer_section-lokalize";
+@import "footer/footer-lokalise";

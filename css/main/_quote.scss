@@ -1,23 +1,23 @@
-.main__section--about {
+.quote {
     background-color: $white--spec;
     display: flex;
     gap: 85px;
     padding: 53px 15% 105px;
-    .main__section--about__container {
-        .main__section--about__container__text {
+    .quote-container {
+        .quote-text {
             @include fonts(1.875rem, 400, 40px);
         }
-        .main__section--about__container__element {
+        .quote-element {
             display: block;
             @include fonts(0.9375rem, 400, 25px);
             padding: 25px 0 5px;
         }
-        .main__section--about__container__img {
+        .quote-img {
             display: block;
         }
     }
-    .main__section--about__img {
-        .main__section--about__img__item {
+    .quote-wrapp {
+        .photo {
             display: block;
         }
     }

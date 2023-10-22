@@ -1,16 +1,16 @@
-.main__section__secondary--logo {
+.secondary-logo {
     background-color: #FF9C7D;
     padding: 119px 0 161px;
     text-align: center;
-    .main__section__secondary--logo__heading {
+    .secondary-logo__title {
         @include fonts(4.0625rem, 600, 75px);
     }
-    .main__section__secondary--logo__text {
+    .secondary-logo__text {
         display: block;
         padding: 29px 0 54px;
         @include fonts(1.25rem, 400, 30px);
     }
-    .main__section__secondary--logo__link {
+    .secondary-logo__link {
         @include btn; 
         margin: 0 auto;
         background-color: #000;

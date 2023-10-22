@@ -1,25 +1,25 @@
-.footer__section-lokalize {
+.footer-lokalise {
     width: $main_size-width;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
-    .footer__section-lokalize__container{
+    .lokalise-container {
         display: flex;
         align-items: center;
         gap: 14px;
-        .footer__section-lokalize__container__img {
-            .footer__section-lokalize__container__img__item {
+        .footer-wrapp {
+            .lokalise-img {
                 display: block;
             }
         }
-        .footer__section-lokalize__container__text {
+        .lokalise-text {
             @include fonts(0.75rem, 400, 15px);
         }
     }
-    .footer__section-lokalize__container--mod {
+    .lokalise-item {
         padding-right: 76px;
-        .footer__section-lokalize__container--mod__element {
+        .additional-text {
             @include fonts(0.75rem, 400, 15px);
             display: block;
         }

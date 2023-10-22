@@ -1,11 +1,11 @@
-.main__section--spec {
+.localization-team {
     padding-bottom: 187px;
-    .main__section__heading {
+    .localization-team-title {
         @include fonts(3.125rem, 600, 60px);
         text-align: center;
         padding: 154px 0 75px;
     }
-    .main__section--spec__wrapp {
+    .localization-team-container {
         width: $main_size-width;
         margin: 0 auto;
         display: flex;
@@ -13,27 +13,27 @@
         align-items: center;
         gap: 30px;
 
-        .main__section--spec__container {
+        .localization-team-container__item {
             width: calc(100% / 3);
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             gap: 25px;
-            .main__section--spec__container__img {
+            .localization-team-container__wrapp {
                 height: 201px;
                 display: flex;
                 align-items: center;
-                .main__section--spec__container__img__item {
+                .localization-team-container__img {
                     display: block;
                 }
             }
-            .main__section--spec__container__heading {
+            .localization-team-container__title {
                 @include fonts(1.875rem, 600, 40px);
             }
-            .main__section--spec__container__text {
+            .localization-team-container__text {
                 @include fonts(1.25rem, 400, 30px);
             }
-            .main__section--spec__container__link {
+            .localization-team-container__link {
                 @include fonts(1.25rem, 400, 30px);
                 text-decoration: underline;
                 color: $black;
